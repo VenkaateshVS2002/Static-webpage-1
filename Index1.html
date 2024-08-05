@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bang Bang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #757070;
+            color: rgb(10, 10, 10);
+            padding: 1rem 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: rgb(226, 141, 141);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #adccaf;
+            padding: 2rem 0;
+        }
+
+        .hero .container {
+            text-align: center;
+        }
+
+        .products {
+            padding: 2rem 0;
+        }
+
+        .products .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .product {
+            background-color: #ffffff;
+            border: 1px solid #80afbd;
+            padding: 1rem;
+            text-align: center;
+            flex: 1 1 200px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bang Bang</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to the Topclass</h2>
+                <p>Find the best products here!</p>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="C:\Users\CCLAB\Pictures\shoe1.png" alt="Product 1">
+                        <h3>Shoes</h3>
+                        <p>Rs.899</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="C:\Users\CCLAB\Pictures\fit.png" alt="Product 2">
+                        <h3>Sports equipments</h3>
+                        <p>Rs.2599</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="C:\Users\CCLAB\Pictures\toys.png" alt="Product 3">
+                        <h3>Toys</h3>
+                        <p>Rs.249</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="C:\Users\CCLAB\Pictures\ac.png"alt="Product 4">
+                        <h3>Air coolers</h3>
+                        <p>Rs.5999</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bang Bang. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
